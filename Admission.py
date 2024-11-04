@@ -5,7 +5,10 @@ import streamlit as st
 import pandas as pd
 import pickle
 import warnings
-warnings.filterwarnings('ignore')
+import pandas as pd                  # Pandas
+import numpy as np                   # Numpy
+from matplotlib import pyplot as plt # Matplotlib
+
 
 
 # Set up the app title and image
