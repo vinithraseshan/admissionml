@@ -4,11 +4,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import warnings
-import pandas as pd                  # Pandas
-import numpy as np                   # Numpy
-from matplotlib import pyplot as plt # Matplotlib
-
+import warnings           # Pandas
+warnings.filterwarnings('ignore')    # Numpy
 
 
 # Set up the app title and image
